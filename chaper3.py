@@ -19,7 +19,7 @@ formula = 3 + 4j
 hasTrue = True
 version = 3.22
 
-print(type(age))
+#print(type(age))
 
 
 
