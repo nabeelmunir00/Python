@@ -18,6 +18,7 @@ b = 'COLLEGE'
 
 # Slicing cuts out a piece of a string. Syntax: string[start : stop : step] — note that stop index is excluded.
 
+
 #print(b[3:6:1])
 # COLLEGE is ma sa hum ko  C L E E print karna ha 
 # print(b[0:7:2])
@@ -42,3 +43,7 @@ newValue = int(value)
 
 print("Value ",value,"Type ", type(value))
 print("Value ",newValue,"Type ", type(newValue))
+
+# you can convert string if it holds vaild intergers 
+
+
