@@ -46,3 +46,12 @@ print(10 == 100)
 print(10>=20)
 print(10<=20)
 print(10 != 20)
+
+# Logical Operators
+# and  both condition are true
+# or atleast one condition are true 
+# not change the value true to false || false to true
+
+print( 10 > 20 and 10 == 10)
+print(10 < 20 or 10 < 1)
+print(not (10 > 20))
