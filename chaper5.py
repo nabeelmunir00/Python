@@ -55,3 +55,16 @@ print(10 != 20)
 print( 10 > 20 and 10 == 10)
 print(10 < 20 or 10 < 1)
 print(not (10 > 20))
+
+# Assignment Operatorrs
+# +=	Add and assign	x = x + n
+# -=	Subtract and assign	x = x - n
+# *=	Multiply and assign	x = x * n
+# /=	Divide and assign	x = x / n
+# //=	Floor divide and assign	x = x // n
+# %=	Modulus and assign	x = x % n
+# **=	Power and assign	x = x ** n 
+ass = 10
+ass+= 20
+ass+= 30
+print(ass)
