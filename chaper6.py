@@ -32,8 +32,23 @@
 # else:
 #     print('Please enter vauld info!')
 
-checkNum = int(input('Please enter int value to check number is Odd or Even :-- '))
-if checkNum % 2 == 0:
-    print(f'{checkNum} is Even')
+# checkNum = int(input('Please enter int value to check number is Odd or Even :-- '))
+# if checkNum % 2 == 0:
+#     print(f'{checkNum} is Even')
+# else:
+#     print(f'{checkNum} is Odd')
+
+# userName = input('Please enter your name:= ')
+# userAge = int(input("Please enter your age:= "))
+
+# if userAge >= 18:
+#     print(f'Hey {userName}, you are a valid voter ✅')
+# else:
+#     print(f'Hey {userName}, you are not valid voter')
+
+year = int(input('Enter a year:- '))
+
+if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+    print(f'{year} is a leap year')
 else:
-    print(f'{checkNum} is Odd')
+    print(f'{year} is not a leap year')
