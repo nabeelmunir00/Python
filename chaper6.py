@@ -1,0 +1,39 @@
+# Conditional Statements
+# Making Decisions in Code
+# Real programs don't run the same code every time — they make decisions. Conditional statements let your program choose what to do based on a condition. That's why they're also called control flow statements.
+
+# if condition:
+#     # runs when condition is True
+# elif another_condition:
+#     # runs if the above was False, this is True
+# else:
+#     # runs when nothing above was True
+
+# age = int (input('Please enter your age:- '))
+
+# if age >=18:
+#     print('You Can Vote!')
+# else:
+#     print("You can not vote!")
+
+# n1 = int(input("Enter First Number :- "))
+# n2 = int(input("Enter Second Number :- "))
+
+# if n1 > n2:
+#     print(f'{n1} is greater')
+# else:
+#     print(f'{n2} is greater')
+
+# gender = input('Enter Your Gender M / F := ')
+# if gender == 'M' or 'm':
+#     print('Good Moring Sir')
+# elif gender == 'F' or 'f':
+#     print('Good Moring Mam')
+# else:
+#     print('Please enter vauld info!')
+
+checkNum = int(input('Please enter int value to check number is Odd or Even :-- '))
+if checkNum % 2 == 0:
+    print(f'{checkNum} is Even')
+else:
+    print(f'{checkNum} is Odd')
