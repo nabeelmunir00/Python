@@ -46,9 +46,19 @@
 # else:
 #     print(f'Hey {userName}, you are not valid voter')
 
-year = int(input('Enter a year:- '))
+# year = int(input('Enter a year:- '))
 
-if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
-    print(f'{year} is a leap year')
+# if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+#     print(f'{year} is a leap year')
+# else:
+#     print(f'{year} is not a leap year')
+
+temp = int(input('Please enter the temperature in °C := '))
+if temp < 0:
+    print('Freezing Cold 🥶')
+elif temp > 0 and temp < 45:
+    print("Pleasant 😊")
+elif temp >= 45:
+    print('Very Hot 🔥')
 else:
-    print(f'{year} is not a leap year')
+    print('Enter Valid temperature in °C') 
