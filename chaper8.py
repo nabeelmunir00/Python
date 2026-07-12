@@ -49,7 +49,7 @@
 # Input: 5
 # 1 2 3 4 5
 
-num = int(input('Please enter a natural numbers to:-'))
+# num = int(input('Please enter a natural numbers to:-'))
 
 # for i in range(1,num+1):
 #     print(i)
@@ -61,7 +61,6 @@ num = int(input('Please enter a natural numbers to:-'))
 # for i in range(num,0,-1):
 #     print(i)
     
-
 #     Q4
 # Print the multiplication table of a number.
 # Input: 5
@@ -69,3 +68,47 @@ num = int(input('Please enter a natural numbers to:-'))
 
 # for i in range(1,11,1):
 #     print(f'{num}x{i}={num*i}')
+
+# Q5
+# Sum of first n natural numbers.
+# Input: 5
+# Sum = 15
+# sum = 0
+# for i in range(1,num+1):
+#     print(i)
+#     sum+=i
+# print(f'Sum = {sum}')
+
+
+# Q6
+# Factorial of a number.
+# Input: 5
+# 5! = 120
+
+# fac = 1
+# for i in range(1,num+1):
+#    fac = fac * i
+# print(f'{num}! = {fac}')
+
+# Q7
+# Print sum of all even and odd numbers in a range separately.
+# Input: 1 to 10
+# Even sum = 30, Odd sum = 25
+
+# start = int(input('Please enter a number to start:'));
+# end = int(input('Please enter a number to end:'));
+
+# sum_even = 0
+# sum_odd = 0
+# allEvenNum = []
+# allOddNum = []
+
+# for i in range(start,end+1):
+#     if i % 2 == 0:
+#         sum_even+=i
+#         allEvenNum.append(i)
+#     else:
+#         sum_odd+=i
+#         allOddNum.append(i)
+# print("Even sum =", sum_even,allEvenNum)
+# print("Odd sum =", sum_odd,allOddNum)
