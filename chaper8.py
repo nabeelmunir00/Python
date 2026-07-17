@@ -112,3 +112,77 @@
 #         allOddNum.append(i)
 # print("Even sum =", sum_even,allEvenNum)
 # print("Odd sum =", sum_odd,allOddNum)
+
+
+# Q8
+# Print all factors of a number.
+# Input: 12
+# 1 2 3 4 6 
+# inputNum = int(input("Enter a to check all the factors of given num: "))
+# for i in range(1,inputNum+1):
+#     if(inputNum % i == 0 ):
+#         print(i)
+
+# word = 'Python'
+
+# for i in range(len(word)-1,-1,-1):
+#     print(word[i])
+
+
+# Q9
+# Check if a number is perfect (sum of factors = the number itself).
+# Input: 6
+# 6 is a Perfect Number ✅ (1+2+3=6)
+
+# num = int(input("Enter a number: "))
+
+# sum_of_factors = 0
+
+# for i in range(1, num):
+#     if num % i == 0:
+#         sum_of_factors += i
+
+# if sum_of_factors == num:
+#     print(num, "is a Perfect Number ✅")
+# else:
+#     print(num, "is NOT a Perfect Number ❌")
+
+
+# Q10
+# Check if a number is prime.
+# Input: 17
+# 17 is Prime ✅
+# Input: 9
+# 9 is NOT Prime ❌
+
+# isTrue = True
+
+# if num <=1:
+#     isTrue = False
+# else:
+#     for i in range(2,num):
+#         if num % i == 0:
+#             isTrue = False
+
+# if isTrue:
+#     print(f'{num} is Prime')
+# else:
+#     print(f'{num} is not prime')
+
+
+# Q12
+# Check if a string is a palindrome.
+# Input: "racecar"
+# Palindrome ✅
+# Input: "hello"
+# Not a palindrome ❌
+
+word = input('Enter a word to check Palindrome:').lower()
+reverseWord = ''
+for i in range(len(word)-1,-1,-1):
+    reverseWord+=word[i]
+
+if word == reverseWord:
+    print(f'{word} is Palindrome ')
+else:
+    print(f'{word} is not Palindrome ')
