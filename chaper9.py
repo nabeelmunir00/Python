@@ -35,7 +35,12 @@ num = int(input('please enter a number:'))
 # Input: 12345
 # 54321
 rev = 0
-while num > 0:
+while num > 0: 
     rev = rev * 10 + num % 10
     num = num // 10
 print(rev)
+
+if num == rev:
+    print('The number is a palindrome')
+else:
+    print('The number is not a palindrome')
