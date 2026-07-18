@@ -177,12 +177,27 @@
 # Input: "hello"
 # Not a palindrome ❌
 
-word = input('Enter a word to check Palindrome:').lower()
-reverseWord = ''
-for i in range(len(word)-1,-1,-1):
-    reverseWord+=word[i]
+# word = input('Enter a word to check Palindrome:').lower()
+# reverseWord = ''
+# for i in range(len(word)-1,-1,-1):
+#     reverseWord+=word[i]
 
-if word == reverseWord:
-    print(f'{word} is Palindrome ')
-else:
-    print(f'{word} is not Palindrome ')
+# if word == reverseWord:
+#     print(f'{word} is Palindrome ')
+# else:
+#     print(f'{word} is not Palindrome ')
+
+# Count letters, digits, and special symbols in a string.
+# Input: "P@#yn26at^&i5ve"
+# Chars=8, Digits=3, Symbols=4
+
+
+
+
+
+
+
+
+
+
+
