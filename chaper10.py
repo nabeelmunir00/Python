@@ -61,3 +61,10 @@ greet("Akarsh")  # Hello Akarsh
 def info(name, age):
     print(f"{name} is {age}")
 info(age=25, name="Akarsh")  # order doesn't matter
+
+#keyword argument
+
+def substraction (a,b):
+    print(b-a)
+
+substraction(b = 20,a = 10 )
