@@ -28,8 +28,8 @@ l = [1,1,1,2,2,2,3,3,3,4,4,4]
 # or agher hum na list ma index ka base ma loop run karne ho to 
 # index sa hum value or index dono ko access kar sate ha 
 
-for i in range(0,len(a)):
-    print(f"{i} : {a[i]} ")
+# for i in range(0,len(a)):
+#     print(f"{i} : {a[i]} ")
 
 
 #Key List Methods
@@ -54,6 +54,27 @@ list2.remove(2) # remove method list ma se vo value remove karta ha jo hum is ko
 list2.clear() # list ma sab element ko remove kar data ha or list ko empty kar data ha 
 
 list3 = [50,10,40,30,20,90,60,100]
-print(f"Before: {list3}")
+# print(f"Before: {list3}")
 list3.sort()
-print(f"After: {list3}")
+# print(f"After: {list3}")
+
+# 📝 List Questions
+
+# Q1
+# Print all positive and negative elements separately.
+# Input: [3, -1, 4, -5, 9]
+# Positive: [3,4,9] Negative: [-1,-5]
+
+q1List = [3,-1,4,-5,9,20,-20,50,-100]
+positive = []
+negative = []
+
+for i in q1List:
+    if(i > 0):
+        positive.append(i)
+    else:
+        negative.append(i)
+
+print(f"Positive: {positive} Negative: {negative}")
+
+
