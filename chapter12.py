@@ -65,16 +65,81 @@ list3.sort()
 # Input: [3, -1, 4, -5, 9]
 # Positive: [3,4,9] Negative: [-1,-5]
 
-q1List = [3,-1,4,-5,9,20,-20,50,-100]
-positive = []
-negative = []
+# q1List = [3,-1,4,-5,9,20,-20,50,-100]
+# positive = []
+# negative = []
 
-for i in q1List:
-    if(i > 0):
-        positive.append(i)
-    else:
-        negative.append(i)
+# for i in q1List:
+#     if(i > 0):
+#         positive.append(i)
+#     else:
+#         negative.append(i)
 
-print(f"Positive: {positive} Negative: {negative}")
+# print(f"Positive: {positive} Negative: {negative}")
+
+# Q2
+# Find the mean (average) of all list elements.
+# Input: [10, 20, 30, 40]
+# Mean = 25.0
+
+# q2list = [10,20,30,40]
+# average = 0
+# length = len(q2list)
+
+# for i in q2list:
+#     average+=i
+
+# print(average/length)
+# print(float(average%len(average)))
 
 
+# Q3
+# Find the greatest element and print its index.
+# Input: [4, 8, 2, 9, 1]
+# Greatest = 9 at index 3
+
+q3list = [4,8,2,9,1,20,30,500]
+bigger = q3list[0]
+index = 0
+for i in range(0,len(q3list)):
+   if q3list[i] > bigger:
+      bigger = q3list[i]
+      index = i
+
+
+# print(f"Largest value {bigger} at index {index}")
+
+
+# Q4
+# Find the second greatest element.
+# Input: [4, 8, 2, 9, 1]
+# Second greatest = 8
+
+# q4list = [4, 7, 2, 21, 1,11,18]
+# largest = q4list[0]
+# sec_largest = q4list[0]
+
+# for i in q4list:
+#    if i > largest:
+#       sec_largest = largest
+#       largest = i
+
+#    elif i > sec_largest:
+#       sec_largest = i
+
+# print(f"Second Largest {sec_largest}")
+
+# Check if the list is already sorted.
+# Input: [1, 3, 5, 7]
+# List is sorted ✅
+# Input: [3, 1, 4]
+# Not sorted ❌
+
+q5list = [1, 3, 5, 7,6]
+
+for i in range(len(q5list)-1):
+   if (q5list[i] > q5list[i+1]):
+      print("Not sorted ❌")
+      break
+else:
+   print("List is sorted ✅")
