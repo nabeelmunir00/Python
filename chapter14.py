@@ -30,3 +30,4 @@ print(f"Union of Sets: {set1 | set2}") # agher hum na dono sets ka union find ka
 print(f"Intersection of Sets:{set1 & set2}") # instersection ma vo value ate ha jo dono ma common ho 
 
 print(set1 - set2)
+print(set1 | set2)
