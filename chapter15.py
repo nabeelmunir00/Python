@@ -40,3 +40,16 @@ for i in d2:
     d1[i] = d2[i]
 
 print(d1)
+# Q1
+# Merge two dictionaries into one.
+
+# d1={a:1}, d2={b:2}
+# {a:1, b:2}
+dics1 = {1:10,2:20,3:30}
+dics2 = {4:40,5:50}
+
+dics1.update(dics2)
+
+print(f"New Data: {dics1}")
+
+
