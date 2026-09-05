@@ -91,13 +91,13 @@ dic1.pop("name")
 # d1={a:5,b:3}, d2={b:4,c:2}
 # {a:5, b:7, c:2}
 d1 = {"a":5,"b":5,"c":4}
-d2 = {"b":4,"c":2}
+d2 = {"b":4,"c":2,"d":10}
 
 for i in d2:
-    if i in d2.keys():
+    if i in d1.keys():
         d1[i] = d1[i] + d2[i]
     else:
-        d1[i] = d1[i]+d2[i]
+        d1[i] = d2[i]
 
 print(d1)
 
