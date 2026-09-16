@@ -2,7 +2,7 @@ import random
 
 com = random.randint(1,100)
 
-user = int(input('Enter a number between 1 and 100:'))
+user = int(input('Enter a number between 1 and 100:- '))
 
 while True:
     if user == com:
